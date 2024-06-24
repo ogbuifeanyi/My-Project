@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@media(max-width:480px){
+    .mobile-img{
+        display: block;
+        position: relative;
+    }
+    .mobile-img>img{
+        width: 20%;
+        padding-left: 1rem;
+        padding-top: 1rem;
+    }
+    .mobile-icon-open>a>img{
+        width: 70%;
+        padding-top: 0.5rem;
+    }
+    .mobile-logo-text{
+      position: absolute;
+      top: 86%;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 20px;
+      left: 27%;
+      transform: translate(-50%, -50%);
+      letter-spacing: 0.1rem;
+      color: rgb(194, 157, 65);
+
+    }
+    .mobile-flex{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .section2-img>img{
+        margin-top: 0.5rem;
+        width: 95%;
+        margin: 0.6rem;
+        border-radius: 20px;
+    }
+
+    .tract{
+        font-size: 30px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: darkslategray;
+        border: 2px rgb(194, 157, 65) dotted;
+        margin-top: 1rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        padding-left: 0.5rem;
+        padding-bottom: 0.5rem;
+    
+    }
+    .mobile-about>h1{
+        text-align: center;
+        margin-top: 2rem;
+        margin-bottom: 0.2rem;
+        font-size: 30px;
+        color: rgb(194, 157, 65);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+       
+       }
+       .mobile-about>p{
+           color: darkslategray;
+           font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+           line-height: 1.3rem;
+           margin-left: 1rem;
+           width: 95%;
+           margin-top: 1rem;
+   
+       }
+       .mobile-about>.mobile-about2{
+           background-color: beige;
+           margin-top: 1rem;
+           padding-left: 0.5rem;
+           padding-right: 0.5rem;
+           margin-left: 0.5rem;
+           border-radius: 20px;
+           padding-top: 0.8rem;
+           padding-bottom: 0.5rem;
+           margin-bottom: 1rem;
+       }
+}

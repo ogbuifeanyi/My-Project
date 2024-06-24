@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@media(max-width:480px){
+    .mobile-img{
+        display: block;
+        position: relative;
+        
+    }
+    .mobile-img>img{
+        width: 20%;
+        padding-left: 1rem;
+        padding-top: 1rem;
+    }
+    .mobile-icon-open{
+        overflow: hidden;
+    }
+    
+    .mobile-icon-open>a>img{
+        width: 135%;
+        padding-top: 1rem;
+        padding-right: 2rem;
+        margin-right: 7rem;
+    
+     
+    }
+    .mobile-logo-text{
+      position: absolute;
+      top: 86%;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 20px;
+      left: 27%;
+      transform: translate(-50%, -50%);
+      letter-spacing: 0.1rem;
+      color: rgb(194, 157, 65);
+
+    }
+    .mobile-flex{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .menu-list>ul{
+        padding-left: 2rem;
+        list-style: none;
+        margin-top: 4rem;
+    }
+    .menu-list>ul>li{
+        margin: 1rem;
+
+    }
+    .menu-list>ul>li>a{
+        text-decoration: none;
+        color: rgb(194, 157, 65);
+        font-size: 25px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .btn30{
+        border-radius: 60px;
+        margin-left: 9rem;
+        margin-top: 3rem;
+        padding: 1rem;
+        background-color: rgb(194, 157, 65);
+        border: rgb(194, 157, 65);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin-bottom: 3rem;
+
+    }
+}

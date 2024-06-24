@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+    margin-top: 15rem;
+    background-image: url('./Images/dog-cute-pet-web-banner-with-copy-space-generative-ai-free-photo.jpg');
+    background-size: cover;
+}
+.email{
+    font-size: 30px;
+    margin-bottom: 1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(194, 157, 65);
+}
+input[type=email]{
+    height: 25px;
+    border: 2px rgb(194, 157, 65) solid;
+}
+input[type=password]{
+    height: 25px;
+    border: 2px rgb(194, 157, 65) solid;
+}
+::placeholder{
+    padding-left: 1rem;
+}
+
+
+.password{
+    font-size: 30px;
+    margin-bottom: 1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(194, 157, 65);
+}
+.confirm{
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(194, 157, 65);
+}
+.btn{
+    margin-top: 1rem;
+    border-radius: 60px;
+    padding: 0.5rem;
+    background-color:  rgb(194, 157, 65);
+    cursor: pointer;
+    border: rgb(194, 157, 65);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.btn:hover{
+    color: white;
+}
